@@ -4,18 +4,6 @@ Workspace for UR5 configuration in ROS
 # Description
 This repository intends to provide a simulation environment (Gazebo+ROS+Rviz) for the development of pick and place functions with the UR5.
 
-It is based in the following packages:
-
-https://github.com/utecrobotics/ur5
-
-https://github.com/JenniferBuehler/common-sensors
-
-https://github.com/utecrobotics/robotiq
-
-https://github.com/philwall3/UR5-with-Robotiq-Gripper-and-Kinect
-
-https://github.com/lihuang3/ur5_ROS-Gazebo
-
 # Installation
 Create a catkin workspace:
 
