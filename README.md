@@ -13,9 +13,8 @@ Create a catkin workspace:
 	$ catkin_make
 	$ source devel/setup.bash
    
-Clone the git repository:
+Clone the git repository in the home folder:
 
-	$ cd ~/catkin_ws/src/
 	$ git clone https://github.com/Ubira/ur5_ws.git
 		
 Build the catkin workspace:
