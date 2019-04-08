@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_state_bswap.dir/src/generic_robot_state_node.cpp.o"
-  "/home/ubira/ur5_ws/devel/lib/industrial_robot_client/robot_state_bswap.pdb"
-  "/home/ubira/ur5_ws/devel/lib/industrial_robot_client/robot_state_bswap"
+  "/home/ubiratan/ur5_ws/devel/lib/industrial_robot_client/robot_state_bswap.pdb"
+  "/home/ubiratan/ur5_ws/devel/lib/industrial_robot_client/robot_state_bswap"
 )
 
 # Per-language clean rules from dependency scanning.

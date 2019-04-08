@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "simple_message_dummy.cpp"
   "CMakeFiles/simple_message_dummy.dir/simple_message_dummy.cpp.o"
-  "/home/ubira/ur5_ws/devel/lib/libsimple_message_dummy.pdb"
-  "/home/ubira/ur5_ws/devel/lib/libsimple_message_dummy.so"
+  "/home/ubiratan/ur5_ws/devel/lib/libsimple_message_dummy.pdb"
+  "/home/ubiratan/ur5_ws/devel/lib/libsimple_message_dummy.so"
 )
 
 # Per-language clean rules from dependency scanning.

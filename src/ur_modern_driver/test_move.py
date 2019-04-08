@@ -10,9 +10,9 @@ from math import pi
 
 JOINT_NAMES = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint',
                'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
-Q1 = [2.2,0,-1.57,0,0,0]
-Q2 = [1.5,0,-1.57,0,0,0]
-Q3 = [1.5,-0.2,-1.57,0,0,0]
+Q1 = [0,-1.57,0,-1.57,0,0]
+Q2 = [0,-1.57,0,0,0,0]
+Q3 = [0,-1.57,0,-1.57,0,0]
     
 client = None
 
@@ -26,9 +26,9 @@ def move1():
         joints_pos = joint_states.position
         g.trajectory.points = [
             JointTrajectoryPoint(positions=joints_pos, velocities=[0]*6, time_from_start=rospy.Duration(0.0)),
-            JointTrajectoryPoint(positions=Q1, velocities=[0]*6, time_from_start=rospy.Duration(2.0)),
-            JointTrajectoryPoint(positions=Q2, velocities=[0]*6, time_from_start=rospy.Duration(3.0)),
-            JointTrajectoryPoint(positions=Q3, velocities=[0]*6, time_from_start=rospy.Duration(4.0))]
+            JointTrajectoryPoint(positions=Q1, velocities=[0]*6, time_from_start=rospy.Duration(3.0)),
+            JointTrajectoryPoint(positions=Q2, velocities=[0]*6, time_from_start=rospy.Duration(6.0)),
+            JointTrajectoryPoint(positions=Q3, velocities=[0]*6, time_from_start=rospy.Duration(9.0))]
         client.send_goal(g)
         client.wait_for_result()
     except KeyboardInterrupt:
@@ -140,8 +140,8 @@ def main():
         print "Please make sure that your robot can move freely between these poses before proceeding!"
         inp = raw_input("Continue? y/n: ")[0]
         if (inp == 'y'):
-            #move1()
-            move_repeated()
+            move1()
+            #move_repeated()
             #move_disordered()
             #move_interrupt()
         else:

@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DLINUXSOCKETS=1 -DROS=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"industrial_robot_client\" -Dindustrial_robot_client_EXPORTS
 
-CXX_INCLUDES = -I/home/ubira/ur5_ws/src/industrial_core/industrial_robot_client/include -I/home/ubira/ur5_ws/devel/include -I/home/ubira/ur5_ws/src/industrial_core/simple_message/include -I/home/ubira/ur5_ws/src/industrial_core/industrial_utils/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/ubiratan/ur5_ws/src/industrial_core/industrial_robot_client/include -I/home/ubiratan/ur5_ws/devel/include -I/home/ubiratan/ur5_ws/src/industrial_core/simple_message/include -I/home/ubiratan/ur5_ws/src/industrial_core/industrial_utils/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

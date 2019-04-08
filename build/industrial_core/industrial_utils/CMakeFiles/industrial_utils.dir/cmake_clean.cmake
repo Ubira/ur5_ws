@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/industrial_utils.dir/src/utils.cpp.o"
   "CMakeFiles/industrial_utils.dir/src/param_utils.cpp.o"
-  "/home/ubira/ur5_ws/devel/lib/libindustrial_utils.pdb"
-  "/home/ubira/ur5_ws/devel/lib/libindustrial_utils.so"
+  "/home/ubiratan/ur5_ws/devel/lib/libindustrial_utils.pdb"
+  "/home/ubiratan/ur5_ws/devel/lib/libindustrial_utils.so"
 )
 
 # Per-language clean rules from dependency scanning.

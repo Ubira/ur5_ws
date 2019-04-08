@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubira/ur5_ws/src/industrial_core/industrial_msgs
+# Install script for directory: /home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubira/ur5_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubiratan/ur5_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,70 +34,70 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs/msg" TYPE FILE FILES
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/msg/DebugLevel.msg"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/msg/DeviceInfo.msg"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/msg/RobotMode.msg"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/msg/RobotStatus.msg"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/msg/ServiceReturnCode.msg"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/msg/TriState.msg"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/msg/DebugLevel.msg"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/msg/DeviceInfo.msg"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/msg/RobotMode.msg"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/msg/RobotStatus.msg"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/msg/ServiceReturnCode.msg"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/msg/TriState.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs/srv" TYPE FILE FILES
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/srv/CmdJointTrajectory.srv"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/srv/GetRobotInfo.srv"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/srv/SetDrivePower.srv"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/srv/SetRemoteLoggerLevel.srv"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/srv/StartMotion.srv"
-    "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/srv/StopMotion.srv"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/srv/CmdJointTrajectory.srv"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/srv/GetRobotInfo.srv"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/srv/SetDrivePower.srv"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/srv/SetRemoteLoggerLevel.srv"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/srv/StartMotion.srv"
+    "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/srv/StopMotion.srv"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs/cmake" TYPE FILE FILES "/home/ubira/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs/cmake" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/include/industrial_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/include/industrial_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/share/roseus/ros/industrial_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/share/roseus/ros/industrial_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/share/common-lisp/ros/industrial_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/share/common-lisp/ros/industrial_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/share/gennodejs/ros/industrial_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/share/gennodejs/ros/industrial_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/ubira/ur5_ws/devel/lib/python2.7/dist-packages/industrial_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/ubiratan/ur5_ws/devel/lib/python2.7/dist-packages/industrial_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/lib/python2.7/dist-packages/industrial_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/lib/python2.7/dist-packages/industrial_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubira/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs/cmake" TYPE FILE FILES "/home/ubira/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs/cmake" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs/cmake" TYPE FILE FILES
-    "/home/ubira/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgsConfig.cmake"
-    "/home/ubira/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgsConfig-version.cmake"
+    "/home/ubiratan/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgsConfig.cmake"
+    "/home/ubiratan/ur5_ws/build/industrial_core/industrial_msgs/catkin_generated/installspace/industrial_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs" TYPE FILE FILES "/home/ubira/ur5_ws/src/industrial_core/industrial_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_msgs" TYPE FILE FILES "/home/ubiratan/ur5_ws/src/industrial_core/industrial_msgs/package.xml")
 endif()
 

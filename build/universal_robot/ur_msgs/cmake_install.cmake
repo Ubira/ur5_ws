@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubira/ur5_ws/src/universal_robot/ur_msgs
+# Install script for directory: /home/ubiratan/ur5_ws/src/universal_robot/ur_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubira/ur5_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubiratan/ur5_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,66 +34,66 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs/msg" TYPE FILE FILES
-    "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/msg/Analog.msg"
-    "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/msg/Digital.msg"
-    "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/msg/IOStates.msg"
-    "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/msg/RobotStateRTMsg.msg"
-    "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg"
-    "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/msg/ToolDataMsg.msg"
+    "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/msg/Analog.msg"
+    "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/msg/Digital.msg"
+    "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/msg/IOStates.msg"
+    "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/msg/RobotStateRTMsg.msg"
+    "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg"
+    "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/msg/ToolDataMsg.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs/srv" TYPE FILE FILES
-    "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/srv/SetPayload.srv"
-    "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/srv/SetIO.srv"
+    "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/srv/SetPayload.srv"
+    "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/srv/SetIO.srv"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs/cmake" TYPE FILE FILES "/home/ubira/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs/cmake" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/include/ur_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/include/ur_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/share/roseus/ros/ur_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/share/roseus/ros/ur_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/share/common-lisp/ros/ur_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/share/common-lisp/ros/ur_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/share/gennodejs/ros/ur_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/share/gennodejs/ros/ur_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/ubira/ur5_ws/devel/lib/python2.7/dist-packages/ur_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/ubiratan/ur5_ws/devel/lib/python2.7/dist-packages/ur_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/devel/lib/python2.7/dist-packages/ur_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/devel/lib/python2.7/dist-packages/ur_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubira/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs/cmake" TYPE FILE FILES "/home/ubira/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs/cmake" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs/cmake" TYPE FILE FILES
-    "/home/ubira/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgsConfig.cmake"
-    "/home/ubira/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgsConfig-version.cmake"
+    "/home/ubiratan/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgsConfig.cmake"
+    "/home/ubiratan/ur5_ws/build/universal_robot/ur_msgs/catkin_generated/installspace/ur_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs" TYPE FILE FILES "/home/ubira/ur5_ws/src/universal_robot/ur_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_msgs" TYPE FILE FILES "/home/ubiratan/ur5_ws/src/universal_robot/ur_msgs/package.xml")
 endif()
 

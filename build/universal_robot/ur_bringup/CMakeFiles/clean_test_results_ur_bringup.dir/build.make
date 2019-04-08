@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubira/ur5_ws/src
+CMAKE_SOURCE_DIR = /home/ubiratan/ur5_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubira/ur5_ws/build
+CMAKE_BINARY_DIR = /home/ubiratan/ur5_ws/build
 
 # Utility rule file for clean_test_results_ur_bringup.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubira/ur5_ws/build
 include universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/progress.make
 
 universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup:
-	cd /home/ubira/ur5_ws/build/universal_robot/ur_bringup && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ubira/ur5_ws/build/test_results/ur_bringup
+	cd /home/ubiratan/ur5_ws/build/universal_robot/ur_bringup && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ubiratan/ur5_ws/build/test_results/ur_bringup
 
 clean_test_results_ur_bringup: universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup
 clean_test_results_ur_bringup: universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/build.make
@@ -67,10 +67,10 @@ universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/build: c
 .PHONY : universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/build
 
 universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/clean:
-	cd /home/ubira/ur5_ws/build/universal_robot/ur_bringup && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_ur_bringup.dir/cmake_clean.cmake
+	cd /home/ubiratan/ur5_ws/build/universal_robot/ur_bringup && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_ur_bringup.dir/cmake_clean.cmake
 .PHONY : universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/clean
 
 universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/depend:
-	cd /home/ubira/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubira/ur5_ws/src /home/ubira/ur5_ws/src/universal_robot/ur_bringup /home/ubira/ur5_ws/build /home/ubira/ur5_ws/build/universal_robot/ur_bringup /home/ubira/ur5_ws/build/universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubiratan/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubiratan/ur5_ws/src /home/ubiratan/ur5_ws/src/universal_robot/ur_bringup /home/ubiratan/ur5_ws/build /home/ubiratan/ur5_ws/build/universal_robot/ur_bringup /home/ubiratan/ur5_ws/build/universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/depend
 

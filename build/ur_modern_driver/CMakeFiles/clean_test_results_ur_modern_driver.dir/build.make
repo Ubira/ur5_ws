@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubira/ur5_ws/src
+CMAKE_SOURCE_DIR = /home/ubiratan/ur5_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubira/ur5_ws/build
+CMAKE_BINARY_DIR = /home/ubiratan/ur5_ws/build
 
 # Utility rule file for clean_test_results_ur_modern_driver.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubira/ur5_ws/build
 include ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/progress.make
 
 ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver:
-	cd /home/ubira/ur5_ws/build/ur_modern_driver && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ubira/ur5_ws/build/test_results/ur_modern_driver
+	cd /home/ubiratan/ur5_ws/build/ur_modern_driver && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ubiratan/ur5_ws/build/test_results/ur_modern_driver
 
 clean_test_results_ur_modern_driver: ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver
 clean_test_results_ur_modern_driver: ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/build.make
@@ -67,10 +67,10 @@ ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/build: clean
 .PHONY : ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/build
 
 ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/clean:
-	cd /home/ubira/ur5_ws/build/ur_modern_driver && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_ur_modern_driver.dir/cmake_clean.cmake
+	cd /home/ubiratan/ur5_ws/build/ur_modern_driver && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_ur_modern_driver.dir/cmake_clean.cmake
 .PHONY : ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/clean
 
 ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/depend:
-	cd /home/ubira/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubira/ur5_ws/src /home/ubira/ur5_ws/src/ur_modern_driver /home/ubira/ur5_ws/build /home/ubira/ur5_ws/build/ur_modern_driver /home/ubira/ur5_ws/build/ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubiratan/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubiratan/ur5_ws/src /home/ubiratan/ur5_ws/src/ur_modern_driver /home/ubiratan/ur5_ws/build /home/ubiratan/ur5_ws/build/ur_modern_driver /home/ubiratan/ur5_ws/build/ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ur_modern_driver/CMakeFiles/clean_test_results_ur_modern_driver.dir/depend
 

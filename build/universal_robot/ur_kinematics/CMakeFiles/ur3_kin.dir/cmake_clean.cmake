@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ur3_kin.dir/src/ur_kin.cpp.o"
-  "/home/ubira/ur5_ws/devel/lib/libur3_kin.pdb"
-  "/home/ubira/ur5_ws/devel/lib/libur3_kin.so"
+  "/home/ubiratan/ur5_ws/devel/lib/libur3_kin.pdb"
+  "/home/ubiratan/ur5_ws/devel/lib/libur3_kin.so"
 )
 
 # Per-language clean rules from dependency scanning.

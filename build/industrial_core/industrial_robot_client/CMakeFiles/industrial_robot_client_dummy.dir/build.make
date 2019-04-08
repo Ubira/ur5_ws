@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubira/ur5_ws/src
+CMAKE_SOURCE_DIR = /home/ubiratan/ur5_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubira/ur5_ws/build
+CMAKE_BINARY_DIR = /home/ubiratan/ur5_ws/build
 
 # Include any dependencies generated for this target.
 include industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/depend.make
@@ -58,21 +58,21 @@ include industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_clie
 include industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/flags.make
 
 industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubira/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating industrial_robot_client_dummy.cpp"
-	cd /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client && /usr/bin/cmake -E touch /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubiratan/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating industrial_robot_client_dummy.cpp"
+	cd /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client && /usr/bin/cmake -E touch /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp
 
 industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o: industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/flags.make
 industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o: industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubira/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o"
-	cd /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o -c /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubiratan/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o"
+	cd /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o -c /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp
 
 industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.i"
-	cd /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp > CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.i
+	cd /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp > CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.i
 
 industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.s"
-	cd /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp -o CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.s
+	cd /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp -o CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.s
 
 industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o.requires:
 
@@ -92,14 +92,14 @@ industrial_robot_client_dummy_OBJECTS = \
 # External object files for target industrial_robot_client_dummy
 industrial_robot_client_dummy_EXTERNAL_OBJECTS =
 
-/home/ubira/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so: industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o
-/home/ubira/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so: industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/build.make
-/home/ubira/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so: industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubira/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/ubira/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so"
-	cd /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/industrial_robot_client_dummy.dir/link.txt --verbose=$(VERBOSE)
+/home/ubiratan/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so: industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o
+/home/ubiratan/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so: industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/build.make
+/home/ubiratan/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so: industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubiratan/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/ubiratan/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so"
+	cd /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/industrial_robot_client_dummy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/build: /home/ubira/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so
+industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/build: /home/ubiratan/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so
 
 .PHONY : industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/build
 
@@ -108,10 +108,10 @@ industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy
 .PHONY : industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/requires
 
 industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/clean:
-	cd /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client && $(CMAKE_COMMAND) -P CMakeFiles/industrial_robot_client_dummy.dir/cmake_clean.cmake
+	cd /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client && $(CMAKE_COMMAND) -P CMakeFiles/industrial_robot_client_dummy.dir/cmake_clean.cmake
 .PHONY : industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/clean
 
 industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/depend: industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp
-	cd /home/ubira/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubira/ur5_ws/src /home/ubira/ur5_ws/src/industrial_core/industrial_robot_client /home/ubira/ur5_ws/build /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client /home/ubira/ur5_ws/build/industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubiratan/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubiratan/ur5_ws/src /home/ubiratan/ur5_ws/src/industrial_core/industrial_robot_client /home/ubiratan/ur5_ws/build /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client /home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : industrial_core/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/depend
 

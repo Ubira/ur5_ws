@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubira/ur5_ws/src/industrial_core/industrial_deprecated
+# Install script for directory: /home/ubiratan/ur5_ws/src/industrial_core/industrial_deprecated
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubira/ur5_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubiratan/ur5_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubira/ur5_ws/build/industrial_core/industrial_deprecated/catkin_generated/installspace/industrial_deprecated.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/industrial_core/industrial_deprecated/catkin_generated/installspace/industrial_deprecated.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_deprecated/cmake" TYPE FILE FILES
-    "/home/ubira/ur5_ws/build/industrial_core/industrial_deprecated/catkin_generated/installspace/industrial_deprecatedConfig.cmake"
-    "/home/ubira/ur5_ws/build/industrial_core/industrial_deprecated/catkin_generated/installspace/industrial_deprecatedConfig-version.cmake"
+    "/home/ubiratan/ur5_ws/build/industrial_core/industrial_deprecated/catkin_generated/installspace/industrial_deprecatedConfig.cmake"
+    "/home/ubiratan/ur5_ws/build/industrial_core/industrial_deprecated/catkin_generated/installspace/industrial_deprecatedConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_deprecated" TYPE FILE FILES "/home/ubira/ur5_ws/src/industrial_core/industrial_deprecated/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_deprecated" TYPE FILE FILES "/home/ubiratan/ur5_ws/src/industrial_core/industrial_deprecated/package.xml")
 endif()
 

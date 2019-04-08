@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubira/ur5_ws/src/universal_robot/ur_bringup
+# Install script for directory: /home/ubiratan/ur5_ws/src/universal_robot/ur_bringup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubira/ur5_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubiratan/ur5_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubira/ur5_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringup.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringup.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup/cmake" TYPE FILE FILES
-    "/home/ubira/ur5_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringupConfig.cmake"
-    "/home/ubira/ur5_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringupConfig-version.cmake"
+    "/home/ubiratan/ur5_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringupConfig.cmake"
+    "/home/ubiratan/ur5_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringupConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup" TYPE FILE FILES "/home/ubira/ur5_ws/src/universal_robot/ur_bringup/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup" TYPE FILE FILES "/home/ubiratan/ur5_ws/src/universal_robot/ur_bringup/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/src/universal_robot/ur_bringup/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/src/universal_robot/ur_bringup/launch")
 endif()
 

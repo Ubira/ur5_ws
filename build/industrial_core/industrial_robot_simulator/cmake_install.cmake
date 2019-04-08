@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubira/ur5_ws/src/industrial_core/industrial_robot_simulator
+# Install script for directory: /home/ubiratan/ur5_ws/src/industrial_core/industrial_robot_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubira/ur5_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubiratan/ur5_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,25 +33,25 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubira/ur5_ws/build/industrial_core/industrial_robot_simulator/catkin_generated/installspace/industrial_robot_simulator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_simulator/catkin_generated/installspace/industrial_robot_simulator.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_simulator/cmake" TYPE FILE FILES
-    "/home/ubira/ur5_ws/build/industrial_core/industrial_robot_simulator/catkin_generated/installspace/industrial_robot_simulatorConfig.cmake"
-    "/home/ubira/ur5_ws/build/industrial_core/industrial_robot_simulator/catkin_generated/installspace/industrial_robot_simulatorConfig-version.cmake"
+    "/home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_simulator/catkin_generated/installspace/industrial_robot_simulatorConfig.cmake"
+    "/home/ubiratan/ur5_ws/build/industrial_core/industrial_robot_simulator/catkin_generated/installspace/industrial_robot_simulatorConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_simulator" TYPE FILE FILES "/home/ubira/ur5_ws/src/industrial_core/industrial_robot_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_simulator" TYPE FILE FILES "/home/ubiratan/ur5_ws/src/industrial_core/industrial_robot_simulator/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_simulator" TYPE PROGRAM FILES "/home/ubira/ur5_ws/src/industrial_core/industrial_robot_simulator/industrial_robot_simulator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_simulator" TYPE PROGRAM FILES "/home/ubiratan/ur5_ws/src/industrial_core/industrial_robot_simulator/industrial_robot_simulator")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_simulator/launch" TYPE DIRECTORY FILES "/home/ubira/ur5_ws/src/industrial_core/industrial_robot_simulator/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_simulator/launch" TYPE DIRECTORY FILES "/home/ubiratan/ur5_ws/src/industrial_core/industrial_robot_simulator/launch/")
 endif()
 

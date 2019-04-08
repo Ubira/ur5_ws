@@ -1,0 +1,8 @@
+prefix=/home/ubiratan/ur5_ws/devel
+
+Name: trac_ik_examples
+Description: Description of trac_ik_examples
+Version: 1.5.0
+Cflags: -I/usr/include -I/usr/include/eigen3 -I/opt/ros/kinetic/include
+Libs: -L/home/ubiratan/ur5_ws/devel/lib /usr/lib/x86_64-linux-gnu/libboost_date_time.so /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+Requires: trac_ik_lib

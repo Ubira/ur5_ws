@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ur_driver_gencfg"
-  "/home/ubira/ur5_ws/devel/include/ur_driver/URDriverConfig.h"
-  "/home/ubira/ur5_ws/devel/share/ur_driver/docs/URDriverConfig.dox"
-  "/home/ubira/ur5_ws/devel/share/ur_driver/docs/URDriverConfig-usage.dox"
-  "/home/ubira/ur5_ws/devel/lib/python2.7/dist-packages/ur_driver/cfg/URDriverConfig.py"
-  "/home/ubira/ur5_ws/devel/share/ur_driver/docs/URDriverConfig.wikidoc"
+  "/home/ubiratan/ur5_ws/devel/include/ur_driver/URDriverConfig.h"
+  "/home/ubiratan/ur5_ws/devel/share/ur_driver/docs/URDriverConfig.dox"
+  "/home/ubiratan/ur5_ws/devel/share/ur_driver/docs/URDriverConfig-usage.dox"
+  "/home/ubiratan/ur5_ws/devel/lib/python2.7/dist-packages/ur_driver/cfg/URDriverConfig.py"
+  "/home/ubiratan/ur5_ws/devel/share/ur_driver/docs/URDriverConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,18 +1,18 @@
 
 "use strict";
 
-let StartMotion = require('./StartMotion.js')
 let CmdJointTrajectory = require('./CmdJointTrajectory.js')
 let SetDrivePower = require('./SetDrivePower.js')
+let StartMotion = require('./StartMotion.js')
 let SetRemoteLoggerLevel = require('./SetRemoteLoggerLevel.js')
-let GetRobotInfo = require('./GetRobotInfo.js')
 let StopMotion = require('./StopMotion.js')
+let GetRobotInfo = require('./GetRobotInfo.js')
 
 module.exports = {
-  StartMotion: StartMotion,
   CmdJointTrajectory: CmdJointTrajectory,
   SetDrivePower: SetDrivePower,
+  StartMotion: StartMotion,
   SetRemoteLoggerLevel: SetRemoteLoggerLevel,
-  GetRobotInfo: GetRobotInfo,
   StopMotion: StopMotion,
+  GetRobotInfo: GetRobotInfo,
 };

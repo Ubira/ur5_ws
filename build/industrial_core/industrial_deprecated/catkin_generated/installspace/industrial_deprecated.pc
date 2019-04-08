@@ -1,8 +1,8 @@
-prefix=/home/ubira/ur5_ws/install
+prefix=/home/ubiratan/ur5_ws/install
 
 Name: industrial_deprecated
 Description: Description of industrial_deprecated
 Version: 0.5.1
 Cflags: 
-Libs: -L/home/ubira/ur5_ws/install/lib 
+Libs: -L/home/ubiratan/ur5_ws/install/lib 
 Requires: 

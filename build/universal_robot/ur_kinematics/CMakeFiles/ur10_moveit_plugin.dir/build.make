@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubira/ur5_ws/src
+CMAKE_SOURCE_DIR = /home/ubiratan/ur5_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubira/ur5_ws/build
+CMAKE_BINARY_DIR = /home/ubiratan/ur5_ws/build
 
 # Include any dependencies generated for this target.
 include universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/depend.make
@@ -58,17 +58,17 @@ include universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/progress
 include universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/flags.make
 
 universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/flags.make
-universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /home/ubira/ur5_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubira/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o"
-	cd /home/ubira/ur5_ws/build/universal_robot/ur_kinematics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o -c /home/ubira/ur5_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp
+universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /home/ubiratan/ur5_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubiratan/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o"
+	cd /home/ubiratan/ur5_ws/build/universal_robot/ur_kinematics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o -c /home/ubiratan/ur5_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp
 
 universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.i"
-	cd /home/ubira/ur5_ws/build/universal_robot/ur_kinematics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubira/ur5_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp > CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.i
+	cd /home/ubiratan/ur5_ws/build/universal_robot/ur_kinematics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubiratan/ur5_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp > CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.i
 
 universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.s"
-	cd /home/ubira/ur5_ws/build/universal_robot/ur_kinematics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubira/ur5_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp -o CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.s
+	cd /home/ubiratan/ur5_ws/build/universal_robot/ur_kinematics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubiratan/ur5_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp -o CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.s
 
 universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o.requires:
 
@@ -88,108 +88,108 @@ ur10_moveit_plugin_OBJECTS = \
 # External object files for target ur10_moveit_plugin
 ur10_moveit_plugin_EXTERNAL_OBJECTS =
 
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build.make
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_exceptions.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_background_processing.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_robot_model.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_transforms.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_robot_state.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_profiler.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_distance_field.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_utils.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libfcl.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libgeometric_shapes.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/liboctomap.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/liboctomath.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libkdl_parser.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/liburdf.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librandom_numbers.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libsrdfdom.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libimage_transport.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/libPocoFoundation.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libroslib.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librospack.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libtf_conversions.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libkdl_conversions.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libtf.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libtf2.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librostime.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /home/ubira/ur5_ws/devel/lib/libur10_kin.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so: universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubira/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so"
-	cd /home/ubira/ur5_ws/build/universal_robot/ur_kinematics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur10_moveit_plugin.dir/link.txt --verbose=$(VERBOSE)
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build.make
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_exceptions.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_background_processing.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_robot_model.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_transforms.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_robot_state.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_profiler.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_distance_field.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmoveit_utils.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libfcl.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libgeometric_shapes.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/liboctomap.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/liboctomath.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libkdl_parser.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/liburdf.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librandom_numbers.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libsrdfdom.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libimage_transport.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/libPocoFoundation.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libroslib.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librospack.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libtf_conversions.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libkdl_conversions.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libtf.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libtf2.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librostime.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /home/ubiratan/ur5_ws/devel/lib/libur10_kin.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so: universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubiratan/ur5_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so"
+	cd /home/ubiratan/ur5_ws/build/universal_robot/ur_kinematics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur10_moveit_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build: /home/ubira/ur5_ws/devel/lib/libur10_moveit_plugin.so
+universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build: /home/ubiratan/ur5_ws/devel/lib/libur10_moveit_plugin.so
 
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build
 
@@ -198,10 +198,10 @@ universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/requires: univer
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/requires
 
 universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/clean:
-	cd /home/ubira/ur5_ws/build/universal_robot/ur_kinematics && $(CMAKE_COMMAND) -P CMakeFiles/ur10_moveit_plugin.dir/cmake_clean.cmake
+	cd /home/ubiratan/ur5_ws/build/universal_robot/ur_kinematics && $(CMAKE_COMMAND) -P CMakeFiles/ur10_moveit_plugin.dir/cmake_clean.cmake
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/clean
 
 universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/depend:
-	cd /home/ubira/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubira/ur5_ws/src /home/ubira/ur5_ws/src/universal_robot/ur_kinematics /home/ubira/ur5_ws/build /home/ubira/ur5_ws/build/universal_robot/ur_kinematics /home/ubira/ur5_ws/build/universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubiratan/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubiratan/ur5_ws/src /home/ubiratan/ur5_ws/src/universal_robot/ur_kinematics /home/ubiratan/ur5_ws/build /home/ubiratan/ur5_ws/build/universal_robot/ur_kinematics /home/ubiratan/ur5_ws/build/universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/depend
 

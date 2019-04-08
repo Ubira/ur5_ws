@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubira/ur5_ws/src
+CMAKE_SOURCE_DIR = /home/ubiratan/ur5_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubira/ur5_ws/build
+CMAKE_BINARY_DIR = /home/ubiratan/ur5_ws/build
 
 # Utility rule file for run_tests_industrial_utils.
 
@@ -63,10 +63,10 @@ industrial_core/industrial_utils/CMakeFiles/run_tests_industrial_utils.dir/build
 .PHONY : industrial_core/industrial_utils/CMakeFiles/run_tests_industrial_utils.dir/build
 
 industrial_core/industrial_utils/CMakeFiles/run_tests_industrial_utils.dir/clean:
-	cd /home/ubira/ur5_ws/build/industrial_core/industrial_utils && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_industrial_utils.dir/cmake_clean.cmake
+	cd /home/ubiratan/ur5_ws/build/industrial_core/industrial_utils && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_industrial_utils.dir/cmake_clean.cmake
 .PHONY : industrial_core/industrial_utils/CMakeFiles/run_tests_industrial_utils.dir/clean
 
 industrial_core/industrial_utils/CMakeFiles/run_tests_industrial_utils.dir/depend:
-	cd /home/ubira/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubira/ur5_ws/src /home/ubira/ur5_ws/src/industrial_core/industrial_utils /home/ubira/ur5_ws/build /home/ubira/ur5_ws/build/industrial_core/industrial_utils /home/ubira/ur5_ws/build/industrial_core/industrial_utils/CMakeFiles/run_tests_industrial_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubiratan/ur5_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubiratan/ur5_ws/src /home/ubiratan/ur5_ws/src/industrial_core/industrial_utils /home/ubiratan/ur5_ws/build /home/ubiratan/ur5_ws/build/industrial_core/industrial_utils /home/ubiratan/ur5_ws/build/industrial_core/industrial_utils/CMakeFiles/run_tests_industrial_utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : industrial_core/industrial_utils/CMakeFiles/run_tests_industrial_utils.dir/depend
 

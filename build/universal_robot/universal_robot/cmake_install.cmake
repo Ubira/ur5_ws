@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubira/ur5_ws/src/universal_robot/universal_robot
+# Install script for directory: /home/ubiratan/ur5_ws/src/universal_robot/universal_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubira/ur5_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubiratan/ur5_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/universal_robot" TYPE FILE FILES "/home/ubira/ur5_ws/src/universal_robot/universal_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/universal_robot" TYPE FILE FILES "/home/ubiratan/ur5_ws/src/universal_robot/universal_robot/package.xml")
 endif()
 

@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/ubira/ur5_ws/build"
+export PWD="/home/ubiratan/ur5_ws/build"

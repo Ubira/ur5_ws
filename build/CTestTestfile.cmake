@@ -1,12 +1,13 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubira/ur5_ws/src
-# Build directory: /home/ubira/ur5_ws/build
+# Source directory: /home/ubiratan/ur5_ws/src
+# Build directory: /home/ubiratan/ur5_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(industrial_core/industrial_core)
 subdirs(industrial_core/industrial_deprecated)
+subdirs(trac_ik/trac_ik)
 subdirs(industrial_core/industrial_msgs)
 subdirs(universal_robot/universal_robot)
 subdirs(universal_robot/ur_description)
@@ -20,6 +21,10 @@ subdirs(industrial_core/industrial_utils)
 subdirs(industrial_core/industrial_robot_client)
 subdirs(industrial_core/industrial_robot_simulator)
 subdirs(industrial_core/industrial_trajectory_filters)
+subdirs(trac_ik/trac_ik_lib)
+subdirs(trac_ik/trac_ik_examples)
+subdirs(trac_ik/trac_ik_kinematics_plugin)
+subdirs(trac_ik/trac_ik_python)
 subdirs(universal_robot/ur_kinematics)
 subdirs(universal_robot/ur10_moveit_config)
 subdirs(universal_robot/ur3_moveit_config)

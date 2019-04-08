@@ -15,8 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ur_driver.dir/src/ur/messages.cpp.o"
   "CMakeFiles/ur_driver.dir/src/tcp_socket.cpp.o"
   "CMakeFiles/ur_driver.dir/src/ros_main.cpp.o"
-  "/home/ubira/ur5_ws/devel/lib/ur_modern_driver/ur_driver.pdb"
-  "/home/ubira/ur5_ws/devel/lib/ur_modern_driver/ur_driver"
+  "/home/ubiratan/ur5_ws/devel/lib/ur_modern_driver/ur_driver.pdb"
+  "/home/ubiratan/ur5_ws/devel/lib/ur_modern_driver/ur_driver"
 )
 
 # Per-language clean rules from dependency scanning.

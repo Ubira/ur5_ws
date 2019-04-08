@@ -1,8 +1,8 @@
-prefix=/home/ubira/ur5_ws/devel
+prefix=/home/ubiratan/ur5_ws/devel
 
 Name: industrial_utils
 Description: Description of industrial_utils
 Version: 0.5.1
-Cflags: -I/home/ubira/ur5_ws/src/industrial_core/industrial_utils/include
-Libs: -L/home/ubira/ur5_ws/devel/lib -lindustrial_utils
+Cflags: -I/home/ubiratan/ur5_ws/src/industrial_core/industrial_utils/include
+Libs: -L/home/ubiratan/ur5_ws/devel/lib -lindustrial_utils
 Requires: roscpp urdf

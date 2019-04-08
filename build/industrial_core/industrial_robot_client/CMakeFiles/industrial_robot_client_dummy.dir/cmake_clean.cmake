@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "industrial_robot_client_dummy.cpp"
   "CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o"
-  "/home/ubira/ur5_ws/devel/lib/libindustrial_robot_client_dummy.pdb"
-  "/home/ubira/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so"
+  "/home/ubiratan/ur5_ws/devel/lib/libindustrial_robot_client_dummy.pdb"
+  "/home/ubiratan/ur5_ws/devel/lib/libindustrial_robot_client_dummy.so"
 )
 
 # Per-language clean rules from dependency scanning.
