@@ -5,10 +5,21 @@ Workspace for UR5 configuration in ROS
 This repository intends to provide a simulation environment (Gazebo+ROS+Rviz) for the development of pick and place functions with the UR5.
 
 # Installation
+
+Create a catkin workspace:
+
+	$ source /opt/ros/kinetic/setup.bash
+	$ mkdir -p ~/catkin_ws/src
+	$ cd ~/catkin_ws/
+	$ catkin_make
+	$ source devel/setup.bash
+	$ cd ~/catkin_ws/src
    
 Clone the git repository in the home folder:
 
-	$ git clone https://github.com/Ubira/ur5_ws.git
+	$ git clone https://github.com/Zagitta/ur_modern_driver.git
+	$ git clone https://github.com/ros-industrial/industrial_core.git
+	$ git clone https://github.com/ros-industrial/universal_robot.git
 		
 Build the catkin workspace:
 
