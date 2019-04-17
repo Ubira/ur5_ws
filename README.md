@@ -17,7 +17,7 @@ Create a catkin workspace:
    
 Clone the git repository in the home folder:
 
-	$ git clone https://github.com/Zagitta/ur_modern_driver.git
+	$ git clone https://github.com/Zagitta/ur_modern_driver.git (follow this tutorial: https://github.com/olinrobotics/irl/wiki/Tutorial:-Setting-up-and-running-the-UR5-Robotic-Arm)
 	$ git clone https://github.com/ros-industrial/industrial_core.git
 	$ git clone https://github.com/ros-industrial/universal_robot.git
 		
